@@ -1,0 +1,86 @@
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail {
+	padding: 0px;
+}
+
+.thumbnail .caption-full {
+	padding: 9px;
+}
+
+.container {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#newAlbum {
+	text-align: center;
+}
+
+.form {
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+}
+ 
+a {
+	display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#trademark {
+	position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.delete {
+	display: inline;
+}
+
+#delete-review-btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  display: inline-block;
+}
+
+#login-container, #register-container {
+	text-align: center;
+	width: 33%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.btn btn-xs btn-danger {
+  display: inline-block;
+}
+
+#sign-up-btn, #login-btn {
+	display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+

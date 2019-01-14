@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+<div class="container">
+  <h1 id="newAlbum">Add Comment to <%= album.name %></h1>  
+    <div class="row">
+      <div class="form">
+        <!-- This is where our post request is sent -->
+        <form action="/albums/<%= album._id %>/comments" method="POST">
+            <div class="form-group">
+                <input class="form-control" type="text" name="comment[text]" placeholder="text">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block">Submit</button>
+            </div>
+        </form>
+      </div>
+    </div>  
+    <a href="/albums" style="text-align:center">Go Back</a>
+</div>
+
+<% include ../partials/footer %>
